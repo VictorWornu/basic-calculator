@@ -1,0 +1,386 @@
+body {
+	margin-top: 40px;
+	font-family: fredoka;
+}
+
+.frame-container {
+	background-color: lightgray;
+	width: 370px;
+	height:570px;
+	margin: auto;
+	text-align: center;
+/*	padding-top: 5px;*/
+	padding-bottom: 15px;
+	border: 3px solid black;
+	border-radius: 18px;
+}
+
+#calc-screen {
+	width: 280px;
+	height: 40px;
+	font-size: 32px;
+	border-radius: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.button-container {
+	margin: 10px;
+}
+
+.first-line-container {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.second-line-container {
+	justify-content: center;
+	display: flex;
+}
+
+.third-line-container {
+	justify-content: center;
+	display: flex;
+}
+
+.fourth-line-container {
+	justify-content: center;
+	display: flex;
+}
+
+.fifth-line-container {
+	justify-content: center;
+	display: flex;
+}
+
+.clear-button {
+	font-size: 32px;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.del-button {
+	font-size: 32px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;	
+}
+
+.division-button {
+	font-size: 32px;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.seven-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.eight-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.ninth-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.four-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.multiply-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.minus-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.sixth-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.fifth-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.fourth-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.plus-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.three-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.two-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.one-button {
+	font-size: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.zero-button {
+	font-size: 32px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.point-button {
+	font-size: 32px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.equal-button {
+	font-size: 32px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+@media (max-width: 450px) {
+	#calc-screen {
+		border-radius: 8px;
+		width: 230px;
+		height: 40px;
+	}
+
+	.frame-container {
+		background-color: lightgray;
+		width: 270px;
+		height:510px;
+		margin: auto;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border: 3px solid black;
+		border-radius: 18px;
+	}
+
+	.clear-button {
+		font-size: 28px;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.del-button {
+		font-size: 28px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 7px;
+		padding-top: 7px;	
+	}
+	.division-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.seven-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.eight-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.ninth-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.four-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.multiply-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.minus-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.sixth-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.fifth-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.fourth-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.plus-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.three-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.two-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.one-button {
+		font-size: 28px;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.zero-button {
+		font-size: 28px;
+		padding-left: 17px;
+		padding-right: 17px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.point-button {
+		font-size: 28px;
+		padding-left: 19px;
+		padding-right: 19px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+
+	.equal-button {
+		font-size: 28px;
+		padding-left: 39px;
+		padding-right: 39px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+}
+
+button {
+	border-radius: 8px;
+}
+
+h1 {
+	font-size: 3rem;
+}
